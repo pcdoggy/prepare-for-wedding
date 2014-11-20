@@ -1,0 +1,5 @@
+D:\资料\exercise\prepare for wedding\prepare for wedding\bin\prepare for wedding.dll
+D:\资料\exercise\prepare for wedding\prepare for wedding\bin\prepare for wedding.pdb
+D:\资料\exercise\prepare for wedding\prepare for wedding\obj\Debug\prepare for wedding.dll
+D:\资料\exercise\prepare for wedding\prepare for wedding\obj\Debug\prepare for wedding.pdb
+D:\资料\exercise\prepare for wedding\prepare for wedding\obj\Debug\prepare for wedding.csprojResolveAssemblyReference.cache

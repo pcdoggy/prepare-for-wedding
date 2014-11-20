@@ -1,0 +1,87 @@
+﻿body
+{
+    overflow: scroll;
+}
+.divWholeWebsite
+{
+}
+.divWholeWebsiteTop
+{
+    line-height: 40px;
+}
+.divWholeWebsiteTop .divWholeWebsiteTopLeft
+{
+    float: left;
+}
+.divWholeWebsiteTop .divWholeWebsiteTopCenter
+{
+    max-width: 1040px;
+    min-width: 450px;
+    text-align: center;
+    margin-left: 220px;
+}
+.divWholeWebsiteTop .divWholeWebsiteTopCenter .divHeadline
+{
+    font-size: 80px;
+    border-bottom: 1px dotted #000;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+.divWholeWebsiteTop .divWholeWebsiteTopCenter .divSubtitle
+{
+    text-transform: capitalize;
+}
+.divWholeWebsiteRight
+{
+    float: right;
+    margin-right: 2em;
+}
+.divWholeWebsiteRight .divWholeWebsiteRightMenu
+{
+    margin: 0;
+    padding: 0;
+}
+.divWholeWebsiteRight .divWholeWebsiteRightMenu li
+{
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    padding: 2px;
+    border-radius: 34px;
+    background-color: #f89d57;
+    margin: 6px;
+}
+.divWholeWebsiteRight .divWholeWebsiteRightMenu li a
+{
+    color: White;
+    text-align: center;
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 1px dashed #fff;
+}
+.divWholeWebsiteCenter
+{
+    padding-top: 30px;
+    min-height: 450px;
+    text-align: center;
+}
+.divWholeWebsiteCenter:after
+{
+    clear: both;
+    content: "";
+    display: block;
+}
+.divWholeWebsiteFooter
+{
+    height: 60px;
+    background-color: #F7F7F7;
+    border-top: 1px solid #DDD;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}

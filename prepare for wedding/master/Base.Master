@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="prepare_for_wedding.master.Base" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/css/style.css" media="all" rel="Stylesheet" />
+    <link href="/css/csshake.css" media="all" rel="Stylesheet" />
+    <script type="text/javascript" src="/js/jquery/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/js/jquery/jquery-2.1.1.min.js"></script>
+    <link href="Base.css" media="all" rel="Stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="formBefore" runat="server">
+    </asp:ContentPlaceHolder>
+    <form id="form1" runat="server">
+    <div class="divWholeWebsite">
+        <div class="divWholeWebsiteTop">
+            <div class="divWholeWebsiteTopLeft shake shake-slow">
+                <img src="/image/welcome.jpg" alt="" title="" width="200" />
+            </div>
+            <div class="divWholeWebsiteTopCenter">
+                <div class="divHeadline">
+                    <span id="spanHeadline">1111</span>
+                </div>
+                <div class="divSubtitle">
+                    <span id="spanSubtitle">222</span>
+                </div>
+            </div>
+        </div>
+        <div class="divWholeWebsiteRight">
+            <ul class="divWholeWebsiteRightMenu">
+                <li><a href="/main/about.aspx">我们</a></li>
+                <li><a href="#">相册</a></li>
+                <li><a href="/main/address.aspx">地址</a></li>
+                <li><a href="/main/guest.aspx">捧场</a></li>
+                <li><a href="/main/wish.aspx">祝福</a></li>
+            </ul>
+        </div>
+        <div class="divWholeWebsiteCenter">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="divWholeWebsiteFooter">
+            <p>
+                Doggy &nbsp; © To be the Best 2014 &nbsp; 联系QQ：1084530602
+            </p>
+        </div>
+    </div>
+    </form>
+    <asp:ContentPlaceHolder ID="formAfter" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
