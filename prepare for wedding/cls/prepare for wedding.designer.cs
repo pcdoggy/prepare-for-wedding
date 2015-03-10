@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace prepare_for_wedding.dbc
+namespace prepare_for_wedding.cls
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;
@@ -45,7 +45,7 @@ namespace prepare_for_wedding.dbc
     #endregion
 		
 		public prepare_for_weddingDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["prepare_for_weddingConnectionString1"].ConnectionString, mappingSource)
+				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["prepare_for_weddingConnectionString2"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

@@ -11,10 +11,18 @@
             祝福。。。
         </div>
         <div class="divWishMainMessage">
-            <img />
-            <textarea id="txtLeaveAMessage" rows="3"></textarea>
+            <div>
+                <span>祝福内容：</span>
+                <asp:TextBox ID="txtLeaveAMessage" runat="server" TextMode="MultiLine"></asp:TextBox></div>
+            <div>
+                <span>祝福人：</span>
+                <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+            </div>
+            <div>
+                <asp:Button ID="btnSubmitWish" runat="server" Text="赠送祝福" OnClick="btnSubmitWish_Click" /></div>
         </div>
         <div class="divWishMainBottom">
+            好多祝福。。。
         </div>
     </div>
 </asp:Content>

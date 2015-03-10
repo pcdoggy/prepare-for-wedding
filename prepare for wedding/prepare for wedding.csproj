@@ -57,13 +57,35 @@
     <Content Include="css\image.css" />
     <Content Include="css\style.css" />
     <Content Include="css\文件夹说明.txt" />
-    <Content Include="dbc\文件夹说明.txt" />
-    <Content Include="image\address.png" />
-    <Content Include="image\clouds.png" />
-    <Content Include="image\index.png" />
-    <Content Include="image\logo.png" />
-    <Content Include="image\welcome.jpg" />
-    <Content Include="image\文件夹说明.txt" />
+    <Content Include="img\address.png" />
+    <Content Include="img\clouds.png" />
+    <Content Include="img\index.jpg" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\pics\2010-12-30-第一张~.jpg" />
+    <Content Include="img\pics\2010-12-30-这是准备白我的节奏啊.jpg" />
+    <Content Include="img\pics\2010-12-31-第一个元旦~某人在宿舍没回家.bmp" />
+    <Content Include="img\pics\2011-04-14-自习偷拍.jpg" />
+    <Content Include="img\pics\2012-02-23-有人用美图臭美了.jpg" />
+    <Content Include="img\pics\2012-04-14-帅帅哒~.jpg" />
+    <Content Include="img\pics\2012-06-06-在三号楼顶楼的一间教室.jpg" />
+    <Content Include="img\pics\2012-06-08-在教室自习，某人各种废话啊。。。我拍照还嫌弃我.jpg" />
+    <Content Include="img\pics\2012-08-07-倒腾她的刘海.jpg" />
+    <Content Include="img\pics\2012-11-03-游濠河.jpg" />
+    <Content Include="img\pics\2012-11-28生日蛋糕.jpg" />
+    <Content Include="img\pics\2012-11-28脸上被抹了蛋糕.jpg" />
+    <Content Include="img\pics\2012-12-27-这帽子.jpg" />
+    <Content Include="img\pics\2013-02-28-好孤独的样子.JPG" />
+    <Content Include="img\pics\2013-03-12_给我编辫子~.jpg" />
+    <Content Include="img\pics\2013-03-29-哼哼，已经看到好多张白我的照片了！.JPG" />
+    <Content Include="img\pics\2013-06-29_跟林学飞宿舍吃饭！哼哼，两个人聊得真嗨.jpg" />
+    <Content Include="img\pics\2014-05-26-啧啧，裙子啊.jpg" />
+    <Content Include="img\pics\2014-05-26-显摆.jpg" />
+    <Content Include="img\pics\2014-05-26-爬狼山.jpg" />
+    <Content Include="img\pics\2014-06-05-啧啧.jpg" />
+    <Content Include="img\pics\2014-06-05-班级聚餐.jpg" />
+    <Content Include="img\pics\2014-06-08-送回家去了.jpg" />
+    <Content Include="img\welcome.jpg" />
+    <Content Include="img\文件夹说明.txt" />
     <Content Include="js\img.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery-1.6.4.min.js" />
@@ -99,8 +121,16 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cls\PageBase.cs" />
-    <Compile Include="dbc\prepare for wedding.designer.cs">
+    <Compile Include="cls\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cls\PageDB.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cls\PageUser.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cls\prepare for wedding.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>prepare for wedding.dbml</DependentUpon>
@@ -153,7 +183,7 @@
     <Content Include="master\Base.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbc\prepare for wedding.dbml">
+    <None Include="cls\prepare for wedding.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>prepare for wedding.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
@@ -165,7 +195,7 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="dbc\prepare for wedding.dbml.layout">
+    <None Include="cls\prepare for wedding.dbml.layout">
       <DependentUpon>prepare for wedding.dbml</DependentUpon>
     </None>
   </ItemGroup>

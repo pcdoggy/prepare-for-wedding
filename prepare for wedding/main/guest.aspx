@@ -76,22 +76,24 @@
             <div class="row">
                 <span id="spanName">
                     <label>
-                        *</label>姓名：</span><input type="text" id="txtName" />
+                        *</label>姓名：</span><asp:TextBox ID="txtName" runat="server"></asp:TextBox>
             </div>
             <div class="row">
                 <span id="spanTel">
                     <label>
-                        *</label>手机：</span><input type="text" id="txtTel" />
+                        *</label>手机：</span><asp:TextBox ID="txtTel" runat="server"></asp:TextBox>
             </div>
             <div class="row">
-                <span id="spanEmail">邮箱：</span><input type="text" id="txtEmail" />
+                <span id="spanEmail">邮箱：</span><asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
             </div>
             <div class="row">
-                <span id="spanPostscript">附言：</span><textarea rows="4" id="txtPostscript" placeholder="有什么悄悄话想对新郎新娘说？‘我是来蹭饭的’..."></textarea>
+                <span id="spanPostscript">附言：</span><asp:TextBox ID="txtPostscript" runat="server"
+                    TextMode="MultiLine" placeholder="有什么悄悄话想对新郎新娘说？‘我是来蹭饭的’..."></asp:TextBox>
             </div>
         </div>
         <div class="diaAddNewGuestFooter">
-            <input type="button" value="提交" id="btnAddNewGuestSubmmit" />
+            <asp:Button ID="btnAddNewGuestSubmmit" runat="server" Text="提交" 
+                onclick="btnAddNewGuestSubmmit_Click" />
         </div>
     </div>
 </asp:Content>

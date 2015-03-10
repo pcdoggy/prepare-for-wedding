@@ -20,7 +20,7 @@
     <div class="divWholeWebsite">
         <div class="divWholeWebsiteTop">
             <div class="divWholeWebsiteTopLeft shake shake-slow">
-                <img src="/image/welcome.jpg" alt="" title="" width="200" />
+                <img src="../img/welcome.jpg" alt="" title="" width="200" />
             </div>
             <div class="divWholeWebsiteTopCenter">
                 <div class="divHeadline">

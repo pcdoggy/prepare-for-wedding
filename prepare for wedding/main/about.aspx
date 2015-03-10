@@ -54,7 +54,7 @@
             </p>
         </div>
         <div class="divLovestoryPicture">
-            <img src="/image/index.png" alt="" title="" />
+            <img src="/img/index.jpg" alt="" title="" />
         </div>
     </div>
 </asp:Content>

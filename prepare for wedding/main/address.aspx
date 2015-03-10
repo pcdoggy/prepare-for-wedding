@@ -16,7 +16,7 @@
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="divAddressMain">
-        <img src="/image/address.png" alt="" title="" />
+        <img src="/img/address.png" alt="" title="" />
         <p>
             地址：江苏省南通市崇川区崇川路58号
         </p>

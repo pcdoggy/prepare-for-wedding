@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="prepare for wedding">
+  <DataContextMoniker Name="/prepare_for_weddingDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7c9d849e-b705-45e5-b0d6-d1e7dbeb624f" absoluteBounds="0.75, 0.75, 2, 2.1228255208333335">
+      <DataClassMoniker Name="/prepare_for_weddingDataContext/tb婚礼信息" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89583349-606f-4c35-b2ca-cb0b32a84c95" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.5628255208333335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7a0b431-27c8-4bd7-8d31-37a1843cb7d2" absoluteBounds="3.75, 0.75, 2, 1.7855859375">
+      <DataClassMoniker Name="/prepare_for_weddingDataContext/tb祝福" />
+      <nestedChildShapes>
+        <elementListCompartment Id="814d7c60-31e1-434f-92bb-f3891c29b68f" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2255859375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ce82476e-81ce-4164-95bc-d13d1ac75c2a" absoluteBounds="0.75, 3.75, 2, 2.122825520833334">
+      <DataClassMoniker Name="/prepare_for_weddingDataContext/tb捧场人员信息" />
+      <nestedChildShapes>
+        <elementListCompartment Id="67f53b74-18ad-4d47-aad0-7ec7b84c6c5d" absoluteBounds="0.765, 4.21, 1.9700000000000002, 1.5628255208333335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="527ee564-e5b9-4d30-b4eb-b1b061948c86" absoluteBounds="3.75, 3.75, 2, 1.7855859375000005">
+      <DataClassMoniker Name="/prepare_for_weddingDataContext/tb评论" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba383880-1a01-43cf-9380-96988de9daef" absoluteBounds="3.765, 4.21, 1.9700000000000002, 1.2255859375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
