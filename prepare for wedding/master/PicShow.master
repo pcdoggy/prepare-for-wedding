@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/master/Base2.Master" AutoEventWireup="true"
+    CodeBehind="PicShow.master.cs" Inherits="prepare_for_wedding.master.PicShow" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <link href="PicShow.css?201503111456" rel="Stylesheet" media="all" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="PicShowMainMenu">
+        <ul>
+            <li><a href="../main/about.aspx">返回首页</a></li>
+        </ul>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>

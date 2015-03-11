@@ -1,0 +1,14 @@
+﻿.PicShowMainMenu
+{
+}
+.PicShowMainMenu ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.PicShowMainMenu ul li
+{
+    float: left;
+    min-width: 60px;
+}

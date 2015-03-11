@@ -53,8 +53,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cls\文件夹说明.txt" />
+    <Content Include="css\css.css" />
     <Content Include="css\csshake.css" />
     <Content Include="css\image.css" />
+    <Content Include="css\justified-gallery\justifiedGallery.css" />
+    <Content Include="css\s-gallery\demo-styles.css" />
+    <Content Include="css\s-gallery\images\controls-dark.png" />
+    <Content Include="css\s-gallery\images\controls-light.png" />
+    <Content Include="css\s-gallery\images\controls-light2.png" />
+    <Content Include="css\s-gallery\styles.css" />
     <Content Include="css\style.css" />
     <Content Include="css\文件夹说明.txt" />
     <Content Include="img\address.png" />
@@ -84,11 +91,30 @@
     <Content Include="img\pics\2014-06-05-啧啧.jpg" />
     <Content Include="img\pics\2014-06-05-班级聚餐.jpg" />
     <Content Include="img\pics\2014-06-08-送回家去了.jpg" />
+    <Content Include="img\pics\small-1.png" />
+    <Content Include="img\pics\small-10.png" />
+    <Content Include="img\pics\small-11.png" />
+    <Content Include="img\pics\small-12.png" />
+    <Content Include="img\pics\small-2.png" />
+    <Content Include="img\pics\small-3.png" />
+    <Content Include="img\pics\small-4.png" />
+    <Content Include="img\pics\small-5.png" />
+    <Content Include="img\pics\small-6.png" />
+    <Content Include="img\pics\small-7.png" />
+    <Content Include="img\pics\small-8.png" />
+    <Content Include="img\pics\small-9.png" />
     <Content Include="img\welcome.jpg" />
     <Content Include="img\文件夹说明.txt" />
     <Content Include="js\img.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery-1.6.4.min.js" />
+    <Content Include="js\justified-gallery\jquery-colorbox\colorbox.css" />
+    <Content Include="js\justified-gallery\jquery-colorbox\images\border.png" />
+    <Content Include="js\justified-gallery\jquery-colorbox\images\controls.png" />
+    <Content Include="js\justified-gallery\jquery-colorbox\images\loading.gif" />
+    <Content Include="js\justified-gallery\jquery-colorbox\images\loading_background.png" />
+    <Content Include="js\justified-gallery\jquery-colorbox\images\overlay.png" />
+    <Content Include="js\justified-gallery\jquery-colorbox\jquery.colorbox-min.js" />
     <Content Include="js\jquery-ui\jquery-ui.js" />
     <Content Include="js\jquery.easing.1.3.js" />
     <Content Include="js\jquery.masonry.min.js" />
@@ -96,16 +122,25 @@
     <Content Include="js\jquery\jquery-1.11.1.min.js" />
     <Content Include="js\jquery\jquery-2.1.1.js" />
     <Content Include="js\jquery\jquery-2.1.1.min.js" />
+    <Content Include="js\justified-gallery\justifiedGallery.js" />
+    <Content Include="js\s-gallery\hammer.js" />
+    <Content Include="js\s-gallery\plugins.js" />
+    <Content Include="js\s-gallery\screenfull.min.js" />
+    <Content Include="js\s-gallery\scripts.js" />
     <Content Include="js\文件夹说明.txt" />
     <Content Include="main\about.aspx" />
     <Content Include="main\address.aspx" />
     <Content Include="main\default.aspx" />
     <Content Include="main\guest.aspx" />
     <Content Include="main\index.htm" />
+    <Content Include="main\Pics.aspx" />
     <Content Include="main\wish.aspx" />
     <Content Include="main\文件夹说明.txt" />
     <Content Include="master\Base.css" />
+    <Content Include="master\PicShow.css" />
     <Content Include="master\文件夹说明.txt" />
+    <Content Include="PicShow\AnimatedGraphics.aspx" />
+    <Content Include="PicShow\s-gallery.aspx" />
     <Content Include="test\android_bg.jpg" />
     <Content Include="test\android_bg_1.jpg" />
     <Content Include="test\android_bg_2.jpg" />
@@ -163,6 +198,13 @@
     <Compile Include="main\guest.aspx.designer.cs">
       <DependentUpon>guest.aspx</DependentUpon>
     </Compile>
+    <Compile Include="main\Pics.aspx.cs">
+      <DependentUpon>Pics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main\Pics.aspx.designer.cs">
+      <DependentUpon>Pics.aspx</DependentUpon>
+    </Compile>
     <Compile Include="main\wish.aspx.cs">
       <DependentUpon>wish.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -177,6 +219,34 @@
     <Compile Include="master\Base.Master.designer.cs">
       <DependentUpon>Base.Master</DependentUpon>
     </Compile>
+    <Compile Include="master\Base2.Master.cs">
+      <DependentUpon>Base2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\Base2.Master.designer.cs">
+      <DependentUpon>Base2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="master\PicShow.master.cs">
+      <DependentUpon>PicShow.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\PicShow.master.designer.cs">
+      <DependentUpon>PicShow.master</DependentUpon>
+    </Compile>
+    <Compile Include="PicShow\AnimatedGraphics.aspx.cs">
+      <DependentUpon>AnimatedGraphics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PicShow\AnimatedGraphics.aspx.designer.cs">
+      <DependentUpon>AnimatedGraphics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PicShow\s-gallery.aspx.cs">
+      <DependentUpon>s-gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PicShow\s-gallery.aspx.designer.cs">
+      <DependentUpon>s-gallery.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +260,8 @@
     </None>
     <None Include="js\jquery\jquery-1.11.1.min.map" />
     <None Include="js\jquery\jquery-2.1.1.min.map" />
+    <Content Include="master\Base2.Master" />
+    <Content Include="master\PicShow.master" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />

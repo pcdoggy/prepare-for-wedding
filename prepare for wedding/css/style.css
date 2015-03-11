@@ -1,11 +1,9 @@
 /*index CSS*/
 body{
-background:#f7f7f7 url(../images/pinstripe.gif) repeat top left;
 color:#543019;
 font-family: Georgia, "Times New Roman","微软雅黑","WenQuanYi Zen Hei";
 font-size:14px;
 line-height:1.77em;
-overflow:hidden;
 }
 /***********背景云*************/
 #clouds{
