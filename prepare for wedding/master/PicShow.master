@@ -2,7 +2,7 @@
     CodeBehind="PicShow.master.cs" Inherits="prepare_for_wedding.master.PicShow" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="PicShow.css?201503111456" rel="Stylesheet" media="all" />
+    <link href="PicShow.css" rel="Stylesheet" media="all" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </asp:Content>

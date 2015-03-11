@@ -55,6 +55,7 @@
     <Content Include="cls\文件夹说明.txt" />
     <Content Include="css\css.css" />
     <Content Include="css\csshake.css" />
+    <Content Include="css\html5-css3-grid-image-effect\style.css" />
     <Content Include="css\image.css" />
     <Content Include="css\justified-gallery\justifiedGallery.css" />
     <Content Include="css\s-gallery\demo-styles.css" />
@@ -105,6 +106,7 @@
     <Content Include="img\pics\small-9.png" />
     <Content Include="img\welcome.jpg" />
     <Content Include="img\文件夹说明.txt" />
+    <Content Include="js\html5-css3-grid-image-effect\index.js" />
     <Content Include="js\img.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery-1.6.4.min.js" />
@@ -140,6 +142,7 @@
     <Content Include="master\PicShow.css" />
     <Content Include="master\文件夹说明.txt" />
     <Content Include="PicShow\AnimatedGraphics.aspx" />
+    <Content Include="PicShow\html5-css3-grid-image-effect.aspx" />
     <Content Include="PicShow\s-gallery.aspx" />
     <Content Include="test\android_bg.jpg" />
     <Content Include="test\android_bg_1.jpg" />
@@ -239,6 +242,13 @@
     </Compile>
     <Compile Include="PicShow\AnimatedGraphics.aspx.designer.cs">
       <DependentUpon>AnimatedGraphics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PicShow\html5-css3-grid-image-effect.aspx.cs">
+      <DependentUpon>html5-css3-grid-image-effect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PicShow\html5-css3-grid-image-effect.aspx.designer.cs">
+      <DependentUpon>html5-css3-grid-image-effect.aspx</DependentUpon>
     </Compile>
     <Compile Include="PicShow\s-gallery.aspx.cs">
       <DependentUpon>s-gallery.aspx</DependentUpon>
